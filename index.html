@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Abanoub Shawky</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Abanoub</a>
+        <nav class="navigation">
+            <a href="#about">About</a>
+            <a href="#certificates">certificates</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="main" id="about">
+        <div>
+           <h2>Hello, I'm Abanoub<br><span>Front-end Developer</span></h2>
+           <h3>Creative front-end developer crafting sleek,<br> responsive, user-friendly interfaces.</h3>
+           <a href="projects" class="main-btn">view my work</a>
+           <div class="social-ions">
+            <a href="https://www.linkedin.com/in/abanoub-shawky-9ab443290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/bebo_shawky_?igsh=Mjh5b2pjd3ZyZTZy"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+           </div>
+        </div>
+    </section>
+
+
+
+    
+
+    <section class="certificate-gallery" id="certificates">
+            <h1>Certificate Gallery</h1>
+        <div class="certificate-container">
+            <div class="certificate-item" style="background-image: url('images/first-img.jpg');"></div>
+            <div class="certificate-item" style="background-image: url('images/sec-img.jpg');"></div>
+            <div class="certificate-item" style="background-image: url('images/third-img.jpg');"></div>
+            <div class="certificate-item" style="background-image: url('images/forth-img.jpg');"></div>
+            <div class="certificate-item" style="background-image: url('images/fif-img.jpg');"></div>
+            <div class="certificate-item" style="background-image: url('images/last-img.jpg');"></div>
+        </div>
+    </section>
+
+
+    <section class="projects-section" id="projects">
+        <h2 class="title">My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="card-image" style="background-image: url('images/WhatsApp\ Image\ 2024-12-10\ at\ 15.43.06_d8a4a1e3.jpg');"></div>
+                <div class="card-content">
+                    <h3>Project One</h3>
+                    <p>I'm So Pleased and thrilled to Announce that Our Team was Honored by Tanta University For the Efforts and Hard work we've put throughout the Entire Hult Prize Season Competition🤩.</p>
+                    <a href="https://www.linkedin.com/posts/abanoub-shawky-9ab443290_hultabrprizeabregypt-tantaabruniversity-activity-7203699765832757249-lUs8?utm_source=share&utm_medium=member_ios" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="card-image" style="background-image: url('images/snake\ 2.jpg');"></div>
+                <div class="card-content">
+                    <h3>Project Two</h3>
+                    <p>A symble snake game with python.</p>
+                    <a href="bepo.py" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact-info" id="contact">
+        <h2 class="title">Let's Work Together</h2>
+        <div class="contact-cards">
+            <div class="contact-card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+20 01204094299</p>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>abanub.shawky@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <a href="#" class="logo">Abanoub</a>
+                <p>&copy; 2024 Abanoub Shawky. All rights reserved.</p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/abanoub-shawky-9ab443290" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/bebo_shawky_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    
+    
+</body>
+</html>
